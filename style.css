@@ -1,0 +1,254 @@
+header {
+    background: #FAF4F4;
+}
+
+nav img {
+    padding: 20px;
+}
+
+nav li {
+    display: inline;
+    position: relative;
+    left: 800px;
+    bottom: 100px;
+    margin-left: 30px;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #DFA5A4; 
+    transition: 1s all;
+}
+
+.historia , .informacoes, .projetos {
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    color: gray;
+    margin-top: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 25px;
+}
+
+section p {
+    text-align: center;
+    line-height: 30px;
+}
+
+
+main em {
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.venha {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    color: gray;
+    line-height: 30px;
+    text-align: center;
+    padding: 25px;
+}
+
+.mapa {
+    text-align: center;
+}
+
+.valores h2{
+    margin-bottom: 70px;
+    margin-top: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    color: gray;
+    line-height: 30px;
+    text-align: center;
+    padding: 25px;
+}
+
+.valores ul {
+    position: relative;
+    left: 800px;
+    bottom: 225px;
+    line-height: 59px;
+}
+
+.valores li:hover {
+    transition: 1s all;
+    font-size: 20px;
+    color: #DFA5A4;
+    cursor: default;
+}
+
+.projeto {
+    position: relative;
+    max-width: 450px;
+    max-height: 200px;
+    left: 250px;
+    bottom: 50px;
+}
+
+.rua {
+    position: relative;
+    max-width: auto;
+    max-height: 200px;
+    top: 160px;
+    right: 110px;
+
+}
+
+.castelo {
+    position: relative;
+    max-width: 200px;
+    max-height: 200px;
+    right: 100px;
+}
+
+.projeto:hover {
+    opacity: 0.7;
+	transition: 1s all;
+	transform: scale(1.08);
+	box-shadow: 10px 10px 30px #000000;
+}
+
+.rua:hover {
+    opacity: 0.7;
+	transition: 1s all;
+	transform: scale(1.08);
+	box-shadow: 10px 10px 30px #000000;
+}
+
+.castelo:hover {
+    opacity: 0.7;
+	transition: 1s all;
+	transform: scale(1.08);
+	box-shadow: 10px 10px 30px #000000;
+}
+
+
+.fim {
+    text-align: center;
+    padding: 100px;
+}
+
+.fim h2{
+    position: relative;
+    top: 85px;
+    font-size: 10px;
+}
+
+.fim p{
+    position: relative;
+    top: 90px;
+    font-size: 10px;
+}
+
+footer {
+    background: #DFA5A4;  
+}
+
+
+/*CSS da página de contato*/
+
+
+div label {
+    display: grid;
+    padding: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+fieldset legend {
+    padding: 20px;
+}
+
+.checkbox {
+    padding: 15px;
+}
+
+.enviar {
+    width: 20%;
+	padding: 15px 0;
+	background: #966C5E;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.enviar:hover {
+    transition: 1s all;
+    background: #EBC4C5; 
+}
+.predio {
+    max-width: 500px;
+    max-height: 250px;
+    margin-left: 200px;
+}
+.conceito {
+    max-width: 500px;
+    max-height: 250px;
+}
+.loja {
+    max-width: 500px;
+    max-height: 250px;
+}
+.casa {
+    max-width: 500px;
+    max-height: 250px;
+}
+
+.casa:hover {
+	transition: 1s all;
+	transform: scale(2);
+	box-shadow: 10px 10px 30px #000000;
+}
+.loja:hover {
+	transition: 1s all;
+	transform: scale(2);
+	box-shadow: 10px 10px 30px #000000;
+}
+.conceito:hover {
+	transition: 1s all;
+	transform: scale(2);
+	box-shadow: 10px 10px 30px #000000;
+}
+.predio:hover {
+	transition: 1s all;
+	transform: scale(2);
+	box-shadow: 10px 10px 30px #000000;
+   
+}
+
+.imagem-projeto {
+    align-items: center;
+}
+
+.contato {
+    color: gray;
+}
+.contato:hover {
+    transition: 1s all;
+    color: #966C5E;
+    font-size: 30px;
+}

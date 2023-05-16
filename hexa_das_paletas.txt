@@ -1,0 +1,6 @@
+color: #966C5E; (Marrom)
+color: #DFA5A4; (Rosa escuro)
+color: #EBC4C5; (Rosa médio)
+color: #F9E7E3; (Rosa leve)
+color: #FAF4F4; (Branco rosado)
+
